@@ -15,12 +15,22 @@ html {
 }
 
 .page__body {
+  display: flex;
+  flex-direction: column;
+  height: var(--vh);
+
   margin: 0;
   min-width: 320px;
   min-height: 100%;
   font-size: 16px;
-  // background: url(../img/exclude.png 50%/cover no-repeat fixed, url(../img/mate.png), linear-gradient(168.3deg, #2C1A00 -0.91%, #160B00 101.22%);
-  background: url(../img/exclude.webp) 50%/cover no-repeat fixed, url(../img/mate.webp), linear-gradient(168.3deg, #2C1A00 -0.91%, #160B00 101.22%);
+  background: url(../img/exclude.png), url(../img/mate.png), linear-gradient(168.3deg, #2C1A00 -0.91%, #160B00 101.22%);
+  background: url(../img/exclude.webp), url(../img/mate.webp), linear-gradient(168.3deg, #2C1A00 -0.91%, #160B00 101.22%);
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  // background: linear-gradient(168.3deg, #2C1A00 -0.91%, #160B00 101.22%) center/cover no-repeat fixed;
 }
 
 img {
