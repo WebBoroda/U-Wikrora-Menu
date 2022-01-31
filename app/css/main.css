@@ -56,6 +56,7 @@ html {
   min-width: 320px;
   min-height: 100%;
   font-size: 16px;
+  color: var(--light-color);
   background: url(../img/exclude.png), url(../img/mate.png), -o-linear-gradient(281.7deg, #2C1A00 -0.91%, #160B00 101.22%);
   background: url(../img/exclude.png), url(../img/mate.png), linear-gradient(168.3deg, #2C1A00 -0.91%, #160B00 101.22%);
   background: url(../img/exclude.webp), url(../img/mate.webp), -o-linear-gradient(281.7deg, #2C1A00 -0.91%, #160B00 101.22%);
@@ -147,8 +148,35 @@ a {
   position: relative;
 }
 
+.main-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.tavern {
+  text-transform: capitalize;
+  margin-bottom: 145px;
+}
+
+.name-tavern {
+  font-size: 36px;
+  line-height: 45px;
+  letter-spacing: 3px;
+  margin-bottom: 90px;
+}
+
 .header {
-  padding: 10px 0 10px;
+  padding: 10px 0 20px;
 }
 
 .header_title {
@@ -162,7 +190,6 @@ a {
   -ms-flex-align: center;
   align-items: center;
   margin: 0;
-  color: var(--light-color);
   font-size: 24px;
   line-height: 30px;
   letter-spacing: 3px;
