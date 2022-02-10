@@ -1,16 +1,17 @@
 .footer {
-  position: fixed;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  // position: fixed;
+  // bottom: 0;
+  // left: 50%;
+  // transform: translateX(-50%);
 
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  padding: 20px 0px;
+  padding: 10px;
+  // margin-top: auto;
 
-  background: linear-gradient(299.66deg, #0E0300 1.19%, rgba(16, 7, 0, 0.99) 269.58%);
+  // background: linear-gradient(299.66deg, #0E0300 1.19%, rgba(16, 7, 0, 0.99) 269.58%);
 }
 
 .footer-text {

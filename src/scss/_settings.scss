@@ -45,7 +45,13 @@ a {
 }
 
 .site-container {
-  // overflow: hidden; // если используете на сайте position: sticky - уберите эту настройку
+  // display: grid;
+  // grid-template-areas: header main footer;
+  // grid-template-rows: auto 1fr auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: hidden; // если используете на сайте position: sticky - уберите эту настройку
 }
 
 .is-hidden {
@@ -127,6 +133,8 @@ a {
   align-items: center;
   font-size: 24px;
   line-height: 30px;
+  flex: 1 1 auto;
+  // margin-bottom: 80px;
 }
 
 .tavern {
@@ -152,11 +160,12 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 50px;
 
   color: var(--light-color);
   text-transform: uppercase;
 
-  &::after {
+  &::before {
     content: "";
     display: block;
     width: 20px;
