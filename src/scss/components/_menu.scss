@@ -66,6 +66,8 @@
 
   p {
     display: flex;
+    flex-direction: row;
+    flex: 1 0 auto;
     padding: 0;
     margin: 0;
   }
@@ -81,4 +83,9 @@
 
 .components {
   font-size: 16px;
+}
+
+
+.lis__item-mb {
+  margin-bottom: 60px;
 }

@@ -253,6 +253,11 @@ section {
   margin-bottom: 100px;
 }
 
+.w100procent {
+  width: 100%;
+  max-width: 1000px;
+}
+
 .footer-menu {
   font-size: 16px;
   line-height: 24px;
@@ -369,6 +374,13 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
   padding: 0;
   margin: 0;
 }
@@ -387,6 +399,10 @@ section {
 
 .components {
   font-size: 16px;
+}
+
+.lis__item-mb {
+  margin-bottom: 60px;
 }
 
 .footer {
