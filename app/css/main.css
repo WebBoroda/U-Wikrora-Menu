@@ -384,6 +384,9 @@ section {
   padding: 0;
   margin: 0;
 }
+.list__item .components {
+  margin-left: 15px;
+}
 
 .dots {
   display: -webkit-inline-box;
@@ -403,6 +406,29 @@ section {
 
 .lis__item-mb {
   margin-bottom: 60px;
+}
+
+.btn__up {
+  position: absolute;
+  bottom: 50%;
+  right: 10px;
+  display: block;
+  width: 26px;
+  height: 26px;
+  padding: 5px;
+  border: 1px solid var(--light-color);
+  border-radius: 50%;
+  background: url(../img/arrov-doun.svg) center/cover no-repeat;
+  background-size: 80%;
+  -webkit-transform: rotate(180deg) translateY(-50%);
+  -ms-transform: rotate(180deg) translateY(-50%);
+  transform: rotate(180deg) translateY(-50%);
+}
+
+.btn__up-link {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .footer {
